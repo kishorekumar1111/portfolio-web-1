@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <h1>Welcome to My Portfolio</h1>
+    <p>I am Yugaram, a Web Developer and Designer.</p>
+    <a href="#projects" class="btn">Explore My Work</a>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <img src="project1.jpg" alt="Project 1">
+      <h3>Project Title 1</h3>
+      <p>Short description of the project...</p>
+    </div>
+    <div class="project-card">
+      <img src="project2.jpg" alt="Project 2">
+      <h3>Project Title 2</h3>
+      <p>Short description of the project...</p>
+    </div>
+    <!-- Add more project cards as needed -->
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <h2>Skills</h2>
+    <div class="skill-bar">
+      <p>HTML</p>
+      <div class="progress"><span style="width: 90%;"></span></div>
+    </div>
+    <div class="skill-bar">
+      <p>CSS</p>
+      <div class="progress"><span style="width: 80%;"></span></div>
+    </div>
+    <div class="skill-bar">
+      <p>JavaScript</p>
+      <div class="progress"><span style="width: 70%;"></span></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://linkedin.com">LinkedIn</a>
+      <a href="https://github.com">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
